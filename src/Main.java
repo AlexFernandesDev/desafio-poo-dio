@@ -7,12 +7,16 @@ public class Main {
 
         Curso curso1 = new Curso();
         curso1.setTitulo("curso java");
-        curso1.setDescricao("descrição curso java");
+        curso1.setDescricao("Os alunos aprenderão os conceitos de programação Java, " +
+                "desenvolverão aplicativos orientados a objetos com Java e criarão programas " +
+                "Java por meio de atividades práticas interessantes. ");
         curso1.setCargaHoraria(8);
 
         Curso curso2 = new Curso();
         curso2.setTitulo("curso js");
-        curso2.setDescricao("descrição curso js");
+        curso2.setDescricao("Saiba muito além de frameworks, aprenda e domine a base! " +
+                "Diversos projetos práticos para você ficar fera nessa linguagem." +
+                "Além disso diversos bônus inclusos, como: Node, React, FireBase.");
         curso2.setCargaHoraria(4);
 
         Mentoria mentoria = new Mentoria();
